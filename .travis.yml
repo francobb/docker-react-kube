@@ -15,8 +15,6 @@ deploy:
   env: "DockerReactKube-env"
   bucket-name: "elasticbeanstalk-us-east-1-774887564425"
   bucket-path: "docker-react-kube"
-  access_key_id: "AKIAJKPRNILA3VSZTSEQ"
-  secret_access_key: "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"
   on:
     branch: master
     access_key_id: $AWS_ACCESS_KEY
